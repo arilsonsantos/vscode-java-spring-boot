@@ -14,6 +14,8 @@ import lombok.AllArgsConstructor;
 public class PessoaService {
 
     private PessoaRepository pessoaRepository;
+
+    private String teste;
     
     public List<Pessoa> findAll(){
         return pessoaRepository.findAll();
